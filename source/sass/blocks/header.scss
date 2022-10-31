@@ -1,0 +1,16 @@
+.page-header {
+  position: sticky;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $font-secondary-color;
+  background: linear-gradient(180deg, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
+}
+
+.page-header__link {
+  padding: 45px 15px;
+}

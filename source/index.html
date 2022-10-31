@@ -18,13 +18,30 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <div class="container"></div>
+      <header class="page-header">
+        <div class="container">
+          <a class="page-header__logo">
+            <picture>
+              <source media="(max-width: 767px)" srcset="img/svg/logo-mobile.svg">
+              <img src="img/svg/logo.svg" width="215" height="55" alt="Логотип магазина Смарт Девайс.">
+            </picture>
+          </a>
+
+          <address class="page-header__item">
+            <a class="page-header__link" href="mailto:info@sd.ru">info@sd.ru</a>
+          </address>
+
+          <address class="page-header__item">
+            <a class="page-header__link" href="tel:+74950005252">+7 (495) 000 52 52</a>
+          </address>
+
+          <button class="page-header__modal-button" type="button">Заказать звонок</button>
+        </div>
       </header>
 
       <main>
-        <section class="intro">
-          <div class="container">
+        <section class="">
+          <div class="container"></div>
         </section>
       </main>
 
